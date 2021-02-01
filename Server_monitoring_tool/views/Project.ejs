@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Monitoring</title>
+</head>
+<body>
+    <h1>This is group 23</h1>
+    <ul>
+       
+       
+        <li>Group Members
+        <ol>
+            <li>Aman Kumar Kanojia (201851014)</li>
+            <li>Ekansh Verma (201851043)</li>
+             <li>Prashant Prajapati (201851088)</li>
+            <li>Shubham Bhardwaj (201852027)</li>
+        </ol></li>
+        <li> Project : Server Monitoring Tool</li>
+        <ol>
+            <li>Server port: <%= portnum %></li>
+            <li> Server ip address: 192.168.43.109</li>
+            <li> Server bandwidth
+                <ul>Uptime: <%= up %></ul>
+                <ul>In: <%= In %></ul>
+                <ul>Out: <%= Out %></ul>
+            </li>
+            <li> Server latency
+                <ul>Latency: <%= latency %></ul>
+                <ul>Average Latency: <%= avglatency %></ul>
+            </li>
+            <li>Memory Usage
+                <ul>Platform: <%= platform %></ul>
+                <ul>No. of CPU: <%= nof %></ul>
+                <ul>Load Average: <%= ldavg %></ul>
+                <ul>Total Memory: <%= totmem %></ul>
+                <ul>Free Memory: <%= freemem%></ul>
+                <ul>Memory Usage: <%= memusage %></ul>
+                <ul>Free Memory(%): <%= memper %></ul>
+            </li>
+            <li> Connected hosts: <%= hostname%></li>
+        </ol>
+    </ul>
+    
+    
+</body>
+</html>
